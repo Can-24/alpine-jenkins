@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE='Can-24/jenkins'
+        IMAGE='can-24/jenkins'
         TAG='latest'
     }
     stages {
